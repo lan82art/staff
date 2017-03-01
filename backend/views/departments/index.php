@@ -32,7 +32,6 @@ $this->params['breadcrumbs'][] = $this->title;
         'responsiveWrap' =>true,
         'hover' => true,
         'floatHeader' => true,
-        'floatHeaderOptions' => ['scrollingTop' => $scrollingTop],
         'panel' => [
             'type' => GridView::TYPE_DEFAULT
         ],

@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <p>
         <?php
            // echo date('d-m-Y',$now);
-           echo $now->format('d-M-Y H:i:s');
+           echo Yii::$app->formatter->asDate($now);
         ?>
     </p>
 

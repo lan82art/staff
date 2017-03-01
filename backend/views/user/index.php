@@ -30,15 +30,20 @@ $this->params['breadcrumbs'][] = $this->title;
         'responsiveWrap' =>true,
         'hover' => true,
         'floatHeader' => true,
-        'floatHeaderOptions' => ['scrollingTop' => $scrollingTop],
         'panel' => [
             'type' => GridView::TYPE_DEFAULT
         ],
         'columns' => [
             //['class' => 'kartik\grid\SerialColumn'],
 
-            'id',
-            'username',
+            [
+                'attribute' => 'id',
+                'headerOptions' => ['width' => '20'],
+            ],
+            [
+                'attribute' => 'username',
+                'headerOptions' => ['width' => '30'],
+            ],
             //'auth_key',
             //'password_hash',
             //'password_reset_token',
@@ -46,8 +51,17 @@ $this->params['breadcrumbs'][] = $this->title;
             'fio',
             'department',
             // 'status',
-            'created_at:datetime',
-            'updated_at:datetime',
+            [
+                'attribute' => 'created_at',
+                'format' =>  ['datetime', 'HH:mm:ss dd.MM.Y'],
+                'headerOptions' => ['width' => '160'],
+            ],
+
+             [
+                'attribute' => 'updated_at',
+                'format' =>  ['datetime', 'HH:mm:ss dd.MM.Y'],
+                'headerOptions' => ['width' => '160'],
+            ],
 
             ['class' => 'kartik\grid\ActionColumn'],
         ],

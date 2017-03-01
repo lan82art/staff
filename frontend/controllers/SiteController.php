@@ -3,7 +3,7 @@ namespace frontend\controllers;
 
 use Yii;
 use common\models\LoginForm;
-use common\models\StartFinish;
+
 use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
@@ -71,7 +71,7 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionStartfinish()
+    /*public function actionStartfinish()
     {
         $model = new StartFinish();
 
@@ -91,7 +91,7 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
-
+*/
 
     public function actionIndex()
     {

@@ -1,6 +1,5 @@
 <?php
 
-use yii\helpers\Html;
 use kartik\grid\GridView;
 use kartik\form\ActiveForm;
 
@@ -19,13 +18,12 @@ $this->params['breadcrumbs'][] = $this->title;
                 'enableAjaxValidation' => true,
             ]
         ]);
-        $get = Yii::$app->request->get();
+        $get = Yii::$app->request->get('fam');
         ?>
         <div class="row">
             <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
                     <?=$form->field($model, 'empl_id', ['inputOptions' => ['autofocus' => 'autofocus', 'tabindex' => '1', 'selected' => 'true']])?>&nbsp;
-                    <span style="font-size: 2em; font-weight: bold;"><?=$get['fam'];?></span>&nbsp;<span style="font-size: 3em; font-weight: bold;"><?= $now->format('H:i');?></span>
-                    <!--<p><pre><?php //print_r($get);?></pre></p>-->
+                    <span style="font-size: 2em; font-weight: bold;"><?= $get ?></span>&nbsp;<span style="font-size: 3em; font-weight: bold;"><?= $now->format('H:i');?></span>
             </div>
             <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
                     <?= $now->format('d-M-Y H:i:s');?>

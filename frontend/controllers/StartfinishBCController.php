@@ -2,7 +2,7 @@
 
 namespace frontend\controllers;
 
-use yii;
+use Yii;
 use common\models\StartFinish;
 use frontend\models\StartFinishSearch;
 use yii\web\Controller;
@@ -13,6 +13,7 @@ class StartfinishbcController extends Controller
     public function behaviors()
     {
         return [
+
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
@@ -31,7 +32,7 @@ class StartfinishbcController extends Controller
 
         $entry = Yii::$app->request->post();
 
-        if ($entry['StartFinish']['empl_id']!=null) {
+        if (!empty($entry)) {
             $model =  StartFinish::find()->where(["DATE_FORMAT(FROM_UNIXTIME(start_finish.created_at),'%d-%m-%Y' )" => date('d-m-Y')])->andWhere(['empl_id'=>$entry['StartFinish']['empl_id']])->one();
             if (!isset($model)) $model = new StartFinish();
 
@@ -48,7 +49,6 @@ class StartfinishbcController extends Controller
                 'dataProvider' => $dataProvider,
                 'now' => $now,
                 'model' => $model,
-                'entry' => $entry['StartFinish']['empl_id'],
             ]);
         }
 }

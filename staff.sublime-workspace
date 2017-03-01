@@ -3,10 +3,25 @@
 	{
 		"selected_items":
 		[
+			[
+				"head",
+				"headerOptions"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"contents": "#192.254.159.68 mgt.ua\n192.254.159.68 cib.net.ua\n\n192.168.100.100 bb\n192.168.100.100 ccib\n192.168.100.100 cib\n192.168.100.100 cibb\n192.168.100.100 cibf\n192.168.100.100 dotplant2\n192.168.100.100 localstaff\n192.168.100.100 localstaffb\n192.168.100.100 magento\n192.168.100.100 shopb\n192.168.100.100 shopf\n192.168.100.100 yupe\n192.168.100.100 azlk\n192.168.100.100 CiBboot\n192.168.100.100 cibmvc\n192.168.100.100 cibnetua\n192.168.100.100 shift\n192.168.100.100 shop\n192.168.100.100 wp\n192.168.100.100 yii\n192.168.100.100 presta\n192.168.100.100 start\n192.168.100.100 edn\n192.168.100.100 mgt.com\n\n192.168.100.3 cibstaff.com\n192.168.100.3 cibstaffback.com\n\n192.168.100.5 cib.ua\n192.168.100.5 cibb.ua\n\n192.168.100.150 cibmgt.ua\n\n#ADOBE-BLOCKING-TOOL START\n\n127.0.0.1   hl2rcv.adobe.com\n127.0.0.1   adobeereg.com\n127.0.0.1   activate.adobe.com\n127.0.0.1   practivate.adobe.com\n127.0.0.1   ereg.adobe.com\n127.0.0.1   activate.wip3.adobe.com\n127.0.0.1   ereg.wip3.adobe.com\n127.0.0.1   activate-sea.adobe.com\n127.0.0.1   wwis-dubc1-vip60.adobe.com\n127.0.0.1   activate-sjc0.adobe.com\n127.0.0.1   3dns.adobe.com\n127.0.0.1   3dns-1.adobe.com\n127.0.0.1   3dns-2.adobe.com\n127.0.0.1   3dns-3.adobe.com\n127.0.0.1   3dns-4.adobe.com\n127.0.0.1   adobe-dns.adobe.com\n127.0.0.1   adobe-dns-1.adobe.com\n127.0.0.1   adobe-dns-2.adobe.com\n127.0.0.1   adobe-dns-3.adobe.com\n127.0.0.1   adobe-dns-4.adobe.com\n127.0.0.1   adobe-dns-5.adobe.com\n127.0.0.1   activate.adobe.de\n127.0.0.1   practivate.adobe.de\n127.0.0.1   ereg.adobe.de\n127.0.0.1   activate.wip3.adobe.de\n127.0.0.1   3dns-3.adobe.de\n127.0.0.1   3dns-2.adobe.de\n127.0.0.1   adobe-dns.adobe.de\n127.0.0.1   adobe-dns-2.adobe.de\n127.0.0.1   adobe-dns-3.adobe.de\n127.0.0.1   ereg.wip3.adobe.de\n127.0.0.1   activate-sea.adobe.de\n127.0.0.1   wwis-dubc1-vip60.adobe.de\n127.0.0.1   activate-sjc0.adobe.de\n127.0.0.1   lm.licenses.adobe.com\n127.0.0.1   adobe.activate.com\n127.0.0.1   www.adobeereg.com\n127.0.0.1   125.252.224.90\n127.0.0.1   125.252.224.91\n127.0.0.1   ood.opsource.net\n127.0.0.1   CRL.VERISIGN.NET\n127.0.0.1   OCSP.SPO1.VERISIGN.com\n#ADOBE-BLOCKING-TOOL END\n127.0.0.1 devads.skypeassets.net\n127.0.0.1 devapps.skype.net\n127.0.0.1 qawww.skypeassets.net\n127.0.0.1 qaapi.skype.net\n127.0.0.1 preads.skypeassets.net\n127.0.0.1 preapps.skype.net\n127.0.0.1 static.skypeassets.com\n127.0.0.1 serving.plexop.net\n127.0.0.1 preg.bforex.com\n127.0.0.1 ads1.msads.net\n127.0.0.1 flex.msn.com\n127.0.0.1 rad.msn.com\n127.0.0.1 apps.skype.com\n127.0.0.1 api.skype.com\n127.0.0.1 static.skypeassets.com\n127.0.0.1 adriver.ru\n127.0.0.1 devads.skypeassets.net\n127.0.0.1 devapps.skype.net\n127.0.0.1 qawww.skypeassets.net\n127.0.0.1 qaapi.skype.net\n127.0.0.1 preads.skypeassets.net\n127.0.0.1 preapps.skype.net\n127.0.0.1 serving.plexop.net\n127.0.0.1 preg.bforex.com\n127.0.0.1 ads1.msads.net\n127.0.0.1 flex.msn.com\n0.0.0.0 activation.acronis.com\n127.0.0.1 activation.acronis.com \n0.0.0.0 apps.corel.com\n0.0.0.0 mc.corel.com\n0.0.0.0 origin-mc.corel.com\n0.0.0.0 iws.corel.com",
+			"file": "/C/Windows/System32/drivers/etc/hosts",
+			"file_size": 3091,
+			"file_write_time": 131327572337455148,
+			"settings":
+			{
+				"buffer_size": 2977,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -48,16 +63,67 @@
 	"expanded_folders":
 	[
 		"/X/~Domains/staff",
-		"/X/~Domains/staff/frontend",
 		"/X/~Domains/staff/frontend/views",
-		"/X/~Domains/staff/frontend/views/startfinish"
+		"/X/~Domains/staff/frontend/views/startfinish",
+		"/X/~Domains/staff/tests"
 	],
 	"file_history":
 	[
+		"/X/WebDev/SQL/Создание View для 1С в Magento.sql",
+		"/E/Google Drive/insoft/Текст обработки синхронизации 1С vs Magento.txt",
+		"/X/WebDev/Installs/phplist/config/config.php",
+		"/X/WebDev/Installs/phplist/config.php",
+		"/Y/Для нового Сайта/fromvlad/header.phtml",
+		"/X/МакросVBA проверка мыла.txt",
+		"/E/Google Drive/cib.net.ua.txt",
+		"/C/TEMP/_tc/logs_config/httpd.conf",
+		"/C/TEMP/magento-check.php",
+		"/C/TEMP/_tcx/0/0/app/etc/local.xml",
+		"/C/TEMP/_tcx/0/0/app/etc/config.xml",
+		"/C/TEMP/_tcx/0/0/var/report/966933859528",
+		"/E/Google Drive/HostGator.txt",
+		"/E/Google Drive/insoft/0117/goods0117.csv",
+		"/E/Google Drive/insoft/0117/specoffer.csv",
+		"/E/Google Drive/insoft/0117/system.log",
+		"/E/Google Drive/insoft/0117/0117_Прием_Отправка.csv",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/TEMP/export_correction.xls - GDocs.csv",
+		"/E/Google Drive/insoft/export_correction.csv",
+		"/E/Google Drive/insoft/export_correction_insoft.csv",
+		"/E/Google Drive/insoft/requirements.txt",
+		"/E/Google Drive/insoft/noimage_product.log",
+		"/E/Google Drive/insoft/founded.txt",
+		"/E/Google Drive/insoft/bugs.txt",
+		"/E/Google Drive/f3r272.txt",
+		"/E/Google Drive/Терехова",
+		"/X/TCPlugins/systembar.txt",
+		"/E/Google Drive/CiB/insoft/expdata_stage2.csv",
+		"/C/TEMP/_tcx/0/0/CiB/frontend/web/.htaccess",
+		"/X/WebDev/SQL/Закрыть позиции.sql",
+		"/X/~Domains/yupe/themes/shop/views/site/index.php",
+		"/X/~Domains/yupe/themes/shop/web/styles/common.css",
+		"/E/Google Drive/CiB/insoft/text.txt",
+		"/X/VoIP/Pattern778_6_MTS.csv",
+		"/X/VoIP/Pattern778_5_KYIVSTAR.csv",
+		"/X/VoIP/Pattern778_MTS.csv",
+		"/X/VoIP/Pattern778_KYIVSTAR.csv",
+		"/X/VoIP/Pattern778.csv",
+		"/X/VoIP/Pattern778_7_8_MTS_KYIEVSTAR.csv",
+		"/X/VoIP/Pattern778_8_KYIVSTAR.csv",
+		"/X/VoIP/Pattern778_5_6_KYIVSTAR_MTS.csv",
+		"/X/VoIP/Pattern778_2.csv",
+		"/C/TEMP/Телефон.txt",
+		"/Y/11_16/goods.sql",
+		"/E/Google Drive/AiD/бок.txt",
+		"/E/Google Drive/VFS_CARD.txt",
+		"/E/Site DATA/Alex/todo.txt",
+		"/E/Google Drive/notes.txt",
+		"/X/~Domains/staff/backend/views/startfinish/index.php",
+		"/E/Site DATA/Alex/Клиенты_utf8.csv",
 		"/X/~Domains/staff/frontend/views/startfinish/index.php",
+		"/X/~Domains/staff/backend/views/user/index.php",
 		"/X/~Domains/staff/requirements.php",
 		"/X/WebDev/SQL/Заказы по дням.sql",
-		"/C/Windows/System32/drivers/etc/hosts",
 		"/X/CUT100/demo.ini",
 		"/X/PRO100 5.20/Pro100-5.20-GIV/PRO100.INI",
 		"/X/PRO100 5.20/Readme.txt",
@@ -83,6 +149,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1272",
+			"\"",
+			"</p>",
+			"<p>",
+			"<td style=\"height:20px; width:66px\">",
+			"<td style=\"height:20px; width:474px\">",
+			")",
+			"(",
+			" ",
+			"-",
+			"+38",
+			" ",
+			"',\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -90,6 +169,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"<td>",
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -100,8 +182,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Windows/System32/drivers/etc/hosts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -148,7 +259,7 @@
 	"project": "staff.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -186,7 +297,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 329.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
